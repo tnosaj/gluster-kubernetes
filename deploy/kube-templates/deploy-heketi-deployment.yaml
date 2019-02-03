@@ -77,4 +77,5 @@ spec:
       - name: db
       - name: config
         secret:
+          defaultMode: 0600
           secretName: heketi-config-secret

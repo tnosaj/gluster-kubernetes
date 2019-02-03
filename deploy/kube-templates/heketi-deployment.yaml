@@ -80,4 +80,5 @@ spec:
           path: heketidbstorage
       - name: config
         secret:
+          defaultMode: 0600
           secretName: heketi-config-secret
